@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: poppins, sans-serif;
+    font-weight: normal;
+    margin: 1em;
+    padding: 1em;
+    background-color: rgb(248, 247, 247);
+    color:rgb(26, 190, 160);
+}
+
+#grid {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
